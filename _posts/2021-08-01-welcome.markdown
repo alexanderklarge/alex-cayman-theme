@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Welcome to Teaching You How To Learn!"
+description: Quick mission statement for this site.
+date: 2021-08-01
+categories: jekyll update
+---
+
+## Quick Mission Statement:
+The aim of this site is to act as a natural extension of the [80,000 Hours](https://80000hours.org/) website. 
+
+80,000 Hours is a fantastic site for assessing how to choose an impactful career (aligning with [Effective Altruism](https://www.effectivealtruism.org/) values). I want to create a similarly essential site that **outlines how to best develop knowledge**, and also to act as a repository of Effective Altruism flashcards to improve knowledge sharing & retention.
+
+The current aim is to outline the best techniques for learning and gaining knowledge in a short series of blog posts, and to share free flashcard decks related to Effective Altruism for people to use to test meta-learning out for themselves. 
+
+I believe that empowering people to gain as much knowledge as possible in their chosen fields will help them increase their impact over their careers.
+
+(Read my [Effective Altruism Forum post](https://forum.effectivealtruism.org/posts/EwJuWKicdY76rtCsN/utility-of-an-charity-similar-to-80-000-hours-teaching) which outlines my original vision/ mission statement)
