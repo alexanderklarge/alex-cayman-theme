@@ -47,7 +47,7 @@ graph TD;
 
 </div>
 
-## Key Ideas Guide 3 - Learning, Knowledge, Intelligence, Mastery, Anki
+## Key Ideas Guide 2 - Learning, Knowledge, Intelligence, Mastery, Anki
 
 <div class="mermaid">
 graph TD;
@@ -96,56 +96,59 @@ graph TD;
 ## Key Ideas Guide 3: Getting Started With Anki
 
 <div class="mermaid">
-	graph TD
-	id1(Downloading<br>Anki)
-	id1_1(Free on<br>Desktop)
-	id1_1(Recommend<br>starting here)
-	id1_2(Free on Android)
-	id1_3(Paid on iOS)
-	
-	id2(Using<br>Anki)
-	id2_1(Making<br>cards)
-	id2_2(Reviewing<br>cards)
-	id2_3(Home page)
-	id2_4(Creating<br>a deck)
-	id2_5(How many<br>new cards<br>per day)
-	id2_6(Anki as<br>daily habit)
-	
-	id3(Tips for<br>starting<br>strong)
-	id3_1(Cloze<br>cards)
-	id3_2(Make cards<br>in plain<br>text files!)
-	id3_3(Don't make<br>orphan cards)
-	id3_4(Master deck<br>with subdecks)
-	id3_5(Make it<br>clear what<br>the card<br>is about)
-	id3_6(Make it<br>memorable)
-	
-	id4(20 Rules<br>for Formulating<br>Knowledge)
-	id4_1(First<br>understand)
-	id4_2(Start with<br>big picture)
-	id4_3(Simplify)
-	id4_4(Mnemonic<br>techniques)
-	id4_5(Optimise<br>wording)
-	
-	id1 -.-> id1_1 
-	id1 -.-> id1_2
-	id1 -.-> id1_3
-	id1 ==> id2
-	id2 -.-> id2_1
-	id2 -.-> id2_2
-	id2 -.-> id2_3
-	id2 -.-> id2_4
-	id2 -.-> id2_5
-	id2 -.-> id2_6
-	id2 ==> id3
-	id3 -.-> id3_1
-	id3 -.-> id3_2
-	id3 -.-> id3_3
-	id3 -.-> id3_4
-	id3 -.-> id3_5
-	id3 -.-> id3_6
-	id3 ==> id4
-	id4 -.-> id4_1
-	id4 -.-> id4_2
-	id4 -.-> id4_3
-	id4 -.-> id4_4 
-	id4 -.-> id4_5
+graph TD
+    id1(Downloading<br>Anki)
+    id1_1(Free on<br>Desktop)
+    id1_1_1(Recommend<br>starting here)
+    id1_2(Free on Android)
+    id1_3(Paid on iOS)
+    
+    id2(Using<br>Anki)
+    id2_1(Making<br>cards)
+    id2_2(Reviewing<br>cards)
+    id2_3(Home page)
+    id2_4(Creating<br>a deck)
+    id2_5(How many<br>new cards<br>per day)
+    id2_6(Anki as<br>daily habit)
+    
+    id3(Tips for<br>starting<br>strong)
+    id3_1(Cloze<br>cards)
+    id3_2(Make cards<br>in plain<br>text files!)
+    id3_3(Don't make<br>orphan cards)
+    id3_4(Master deck<br>with subdecks)
+    id3_5(Make it<br>clear what<br>the card<br>is about)
+    id3_6(Make it<br>memorable)
+    
+    id4(20 Rules<br>for Formulating<br>Knowledge)
+    id4_1(First<br>understand)
+    id4_2(Start with<br>big picture)
+    id4_3(Simplify)
+    id4_4(Mnemonic<br>techniques)
+    id4_5(Optimise<br>wording)
+    
+    id1 -.-> id1_1 
+    id1_1 -.-> id1_1_1
+    id1 -.-> id1_2
+    id1 -.-> id1_3
+    id1 ==> id2
+    id2 -.-> id2_1
+    id2 -.-> id2_2
+    id2 -.-> id2_3
+    id2 -.-> id2_4
+    id2 -.-> id2_5
+    id2 -.-> id2_6
+    id2 ==> id3
+    id3 -.-> id3_1
+    id3 -.-> id3_2
+    id3 -.-> id3_3
+    id3 -.-> id3_4
+    id3 -.-> id3_5
+    id3 -.-> id3_6
+    id3 ==> id4
+    id4 -.-> id4_1
+    id4 -.-> id4_2
+    id4 -.-> id4_3
+    id4 -.-> id4_4 
+    id4 -.-> id4_5
+
+</div>
