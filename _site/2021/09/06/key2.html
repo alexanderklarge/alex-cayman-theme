@@ -37,6 +37,17 @@
 <!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
 
 
+  <script type="text/javascript"
+  src="https://unpkg.com/mermaid@8.0.0-rc.8/dist/mermaid.min.js">
+</script>
+<script>
+$(document).ready(function() {
+    mermaid.initialize({
+        theme: 'forest'
+    });
+});
+</script>
+
 
 <!-- end custom head snippets -->
 
@@ -68,7 +79,51 @@
 
 <p><em>Original publish date: 2021-09-06</em></p>
 
-<p><em>2021-09-11 quick note - I highly recommend checking out <a href="https://clearerthinkingpodcast.com/?ep=063">this episode</a> of the Clearer Thinking podcast with Andy Matuschak (who I mention on the resources page) for a fantastic primer on meta-learning / spaced repetition</em></p>
+<h2 id="summary">Summary</h2>
+
+<div class="mermaid">
+graph TD;
+    id1(Aim: Debunking<br />'Anki is just<br />for memorising<br /> facts')
+    id2(Quick anki<br />primer)
+    a1(Daily<br />flashcard<br />process)
+    a2(Creating<br />flashcards)
+    a3(Contains the<br />3 components<br />of effective<br />learning)
+    id3(What is<br />learning,<br />knowledge,<br />intelligence?)
+    l1(Learning:<br />3 steps)
+    l1_1(Encoding)
+    l1_2(Consolidation)
+    l1_3(Retrieval)
+    id4(Bloom's<br />Taxonomy of<br />Learning)
+    b1(6 Categories<br />of Learning)
+    b1_1(Anki covers<br />at least<br />first 2)
+    b2(4 Categories<br />of Knowledge)
+    b2_1(Anki covers<br />at least<br />first 2)
+    id5(Inert vs<br />activated<br />knowledge)
+    id6(Prior knowledge<br />as foundation<br />for new<br />learning)
+    id7(Intelligence)
+    i1(Fluid)
+    i2(Crytallised)
+    id1 ==&gt; id2
+    id2 -.-&gt; a1
+    id2 -.-&gt; a2
+    id2 -.-&gt; a3
+    id2 ==&gt; id3
+    id3 -.-&gt; l1
+    l1 -.-&gt;l1_1
+    l1 -.-&gt;l1_2
+    l1 -.-&gt;l1_3
+    id3 ==&gt; id4
+    id4 -.-&gt; b1
+    b1 -.-&gt; b1_1
+    id4 -.-&gt; b2
+    b2 -.-&gt; b2_1
+    id4 ==&gt; id5
+    id5 ==&gt;id6
+    id6 ==&gt; id7
+    id7 -.-&gt; i1
+    id7 -.-&gt; i2
+    
+</div>
 
 <h2 id="introduction">Introduction</h2>
 
@@ -103,7 +158,7 @@
 
 <p>You make bespoke digital flashcards (you can also download shared ones, which has pros and cons[2]), and then you review them every day. (Note: the iOS app costs ~£18, but is totally worth it)</p>
 
-<p><img src="/alex-cayman-theme/images/key_2_01.png" alt="Anki homepage screenshot" /></p>
+<p><img src="/images/key_2_01.png" alt="Anki homepage screenshot" /></p>
 
 <p><em>A look at my (kind of messy) collection of decks (after 12 minutes of reviewing, leaving only 2 left to do)</em></p>
 
@@ -121,11 +176,11 @@
 
 <p>This relates to spaced repetition and the <a href="https://www.mindtools.com/pages/article/forgetting-curve.htm">forgetting curve</a>.</p>
 
-<p><img src="/alex-cayman-theme/images/key_2_02.png" alt="Reviewing a card" /></p>
+<p><img src="/images/key_2_02.png" alt="Reviewing a card" /></p>
 
 <p><em>Cloze deletion - fill in the blank</em></p>
 
-<p><img src="/alex-cayman-theme/images/key_2_03.png" alt="The answer to that card, and scoring based on difficulty" /></p>
+<p><img src="/images/key_2_03.png" alt="The answer to that card, and scoring based on difficulty" /></p>
 
 <p><em>Note: here, I’d rank this card as “good” as I recalled it well. As this is an old card, I now won’t see it again for 2.9 years!</em></p>
 
@@ -136,7 +191,7 @@
 <p>{{c1::Toby Ord}} is the author of {{c2::The Precipice}} 
 Will lead to 2 cards being made, one that shows “__ is the author of The Precipice”, and one that shows “Toby Ord is the author of __”. A keyboard shortcut can be used to populate the {{c1::}}, making this a really quick card to make (although as I’ve briefly argued based on my experience after reading Andy Matuschak’s “<a href="https://andymatuschak.org/prompts/">how to write good prompts</a>”, making flashcards first in a plain text file rather than directly in Anki is a much better approach as it allows a holistic view of what has been made, what else could/ should be made, etc).</p>
 
-<p><img src="/alex-cayman-theme/images/key_2_04.png" alt="Making flashcards in plain text" /></p>
+<p><img src="/images/key_2_04.png" alt="Making flashcards in plain text" /></p>
 
 <p><em>Making flashcards in a plain text document is the biggest improvement I’ve made to my Anki workflow in the years I’ve been using it</em></p>
 
@@ -284,7 +339,7 @@ Will lead to 2 cards being made, one that shows “__ is the author of The Preci
 
 <p>(Obsidian’s graph view of notes can be used for a visual representation of this. I was struggling to remember that Giving What We Can was founded in 2009, but after adding the extra facts that Obama became President &amp; was awarded the Nobel Peace Prize, &amp; Bitcoin was founded in 2009, the year of GWWC’s founding became far easier to recall)</p>
 
-<p><img src="/alex-cayman-theme/images/key_2_05.png" alt="Graph/ network view of concepts" /></p>
+<p><img src="/images/key_2_05.png" alt="Graph/ network view of concepts" /></p>
 
 <p><em>Obsidian graph view to demonstrate idea of interconnecting web of knowledge - the more connections, the easier something is to remember. Cards with very few / only 1 connection are termed “orphan cards”</em></p>
 

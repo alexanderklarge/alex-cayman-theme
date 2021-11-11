@@ -37,6 +37,17 @@
 <!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
 
 
+  <script type="text/javascript"
+  src="https://unpkg.com/mermaid@8.0.0-rc.8/dist/mermaid.min.js">
+</script>
+<script>
+$(document).ready(function() {
+    mermaid.initialize({
+        theme: 'forest'
+    });
+});
+</script>
+
 
 <!-- end custom head snippets -->
 
@@ -65,38 +76,62 @@
 
 <h2 id="summary">Summary</h2>
 
-<ul>
-  <li>Anki is free for desktop &amp; Android, $25 for iOS. I spend almost all of my Anki time on desktop.</li>
-  <li>It’s very easy to pick up but there are some key things to do and avoid.</li>
-  <li>Using anki is split into making and reviewing flashcards.</li>
-  <li>You can create multiple decks. I recommend having decks for topics, all nested under a master deck.
-    <ul>
-      <li>Interleaving.</li>
-      <li>Allows overall new cards per day to be set via master deck (bottleneck).</li>
-    </ul>
-  </li>
-  <li>Cloze deletion is the best card type.</li>
-  <li>Number of cards per day.</li>
-  <li>Anki as a daily habit.</li>
-  <li>Tips for starting strong.
-    <ul>
-      <li>Make your flashcards in plain text document (!!!).</li>
-      <li>Don’t make “orphan” cards.</li>
-      <li>Master deck with subdecks.</li>
-      <li>Make it clear what card is about.</li>
-      <li>Recognise cards that won’t be memorable and make supporting cards.</li>
-    </ul>
-  </li>
-  <li>20 rules of formulating knowledge, key ones:
-    <ul>
-      <li>First, Understand.</li>
-      <li>Start with big picture &amp; build on the basics.</li>
-      <li>Simplify.</li>
-      <li>Use mnemonic techniques.</li>
-      <li>Optimise wording.</li>
-    </ul>
-  </li>
-</ul>
+<div class="mermaid">
+    graph TD
+    id1(Downloading<br />Anki)
+    id1_1(Free on<br />Desktop)
+    id1_1(Recommend<br />starting here)
+    id1_2(Free on Android)
+    id1_3(Paid on iOS)
+    
+    id2(Using<br />Anki)
+    id2_1(Making<br />cards)
+    id2_2(Reviewing<br />cards)
+    id2_3(Home page)
+    id2_4(Creating<br />a deck)
+    id2_5(How many<br />new cards<br />per day)
+    id2_6(Anki as<br />daily habit)
+    
+    id3(Tips for<br />starting<br />strong)
+    id3_1(Cloze<br />cards)
+    id3_2(Make cards<br />in plain<br />text files!)
+    id3_3(Don't make<br />orphan cards)
+    id3_4(Master deck<br />with subdecks)
+    id3_5(Make it<br />clear what<br />the card<br />is about)
+    id3_6(Make it<br />memorable)
+    
+    id4(20 Rules<br />for Formulating<br />Knowledge)
+    id4_1(First<br />understand)
+    id4_2(Start with<br />big picture)
+    id4_3(Simplify)
+    id4_4(Mnemonic<br />techniques)
+    id4_5(Optimise<br />wording)
+    
+    id1 -.-&gt; id1_1 
+    id1 -.-&gt; id1_2
+    id1 -.-&gt; id1_3
+    id1 ==&gt; id2
+    id2 -.-&gt; id2_1
+    id2 -.-&gt; id2_2
+    id2 -.-&gt; id2_3
+    id2 -.-&gt; id2_4
+    id2 -.-&gt; id2_5
+    id2 -.-&gt; id2_6
+    id2 ==&gt; id3
+    id3 -.-&gt; id3_1
+    id3 -.-&gt; id3_2
+    id3 -.-&gt; id3_3
+    id3 -.-&gt; id3_4
+    id3 -.-&gt; id3_5
+    id3 -.-&gt; id3_6
+    id3 ==&gt; id4
+    id4 -.-&gt; id4_1
+    id4 -.-&gt; id4_2
+    id4 -.-&gt; id4_3
+    id4 -.-&gt; id4_4 
+    id4 -.-&gt; id4_5
+
+</div>
 
 <h2 id="intro">Intro</h2>
 
@@ -155,11 +190,11 @@
 
 <p>It turns out, you can have your multiple-decks cake and interleave it too, by simply creating one master deck (you can see that mine is called “All cards”), and then have every other deck be a subdeck of this one. For example, if I wanted to make a deck for coding, I’d just have to call it “All cards::Coding”, and Anki will understand that this is a subdeck. Then I can click on the master deck and hit review, and the review pile will contain all the due cards from all the subdecks. Lovely!</p>
 
-<p><img src="/alex-cayman-theme/images/key_3_1.png" alt="alt text" /></p>
+<p><img src="/images/key_3_1.png" alt="alt text" /></p>
 
 <p><em>My master deck: you can see that I have 3 new cards and 66 seen-before cards to review today.</em></p>
 
-<p><img src="/alex-cayman-theme/images/key_3_2.png" alt="alt text" /></p>
+<p><img src="/images/key_3_2.png" alt="alt text" /></p>
 
 <p><em>I’ve un-collapsed my master deck and you see all the subdecks that sit underneath. Some of these have cards due, some don’t, and the “Words” subdeck is the only one with a new card to review.</em></p>
 
@@ -167,7 +202,7 @@
 
 <p>To create a new deck, you guessed it! Press the “create deck” button. Make sure to make a master deck and then have any subsequent cards be subdecks.</p>
 
-<p><img src="/alex-cayman-theme/images/key_3_3.png" alt="alt text" /></p>
+<p><img src="/images/key_3_3.png" alt="alt text" /></p>
 
 <p><em>When creating a new deck, use the format {Master deck name}::{New deck name}</em></p>
 
@@ -193,15 +228,15 @@
 
 <p>Both of the curly braces would appear blank at the same time.</p>
 
-<p><img src="/alex-cayman-theme/images/key_3_4.png" alt="alt text" /></p>
+<p><img src="/images/key_3_4.png" alt="alt text" /></p>
 
-<p><img src="/alex-cayman-theme/images/key_3_5.png" alt="alt text" /></p>
+<p><img src="/images/key_3_5.png" alt="alt text" /></p>
 
 <p>As I’ll discuss below, I highly recommend making your flashcards in a text file, rather than directly in Anki, but we’ll get to that later!</p>
 
 <p>One reason I really like cloze is you can quickly make multiple variants of the same card. The below screenshot shows what I mean. Here, I’m learning the 5 steps of Socratic Questioning. I first make a card with c1, c2 and c3 clozes, meaning this card will produce 3 separate cards, making it easier for me as I don’t have to remember all 5 blanks at once. I then make the same card, but change all clozes to c1, so that I will have to guess all 5 blanks. I make the first card to make learning it easier, and then the second card as a way to increase the difficulty.</p>
 
-<p><img src="/alex-cayman-theme/images/key_3_6.png" alt="alt text" /></p>
+<p><img src="/images/key_3_6.png" alt="alt text" /></p>
 
 <p><em>Cloze deletion lets you quickly make variants of the same card. Here, I’ll have one card what has three separate “fill in the blanks”, where only one appears blank at the time, and then I have another card where all 5 will be blank at the same time, to increase difficulty.</em></p>
 
@@ -252,7 +287,7 @@
   <p><em>Unfortunately, most spaced repetition interfaces treat each prompt as a sovereign unit, which makes this kind of high-level revision difficult. It’s as if you’re being asked to write a paper by submitting sentence one, then sentence two, and so on, revising only by submitting a request to edit a specific sentence number. Future systems may improve upon this limitation, but in the meantime, I’ve found I can revise prompts more effectively by simply keeping a holistic aspiration in mind.</em></p>
 </blockquote>
 
-<p><img src="/alex-cayman-theme/images/key_3_7.png" alt="alt text" /></p>
+<p><img src="/images/key_3_7.png" alt="alt text" /></p>
 
 <p><em>Making flashcards in text files (rather than directly in Anki) gives you a holistic view of all the cards you’ve made, so you can identify gaps, make further ones to expand points etc</em></p>
 
@@ -299,7 +334,7 @@
 
 <p>Other techniques include acrostics and including images.</p>
 
-<p><img src="/alex-cayman-theme/images/key_3_8.png" alt="alt text" /></p>
+<p><img src="/images/key_3_8.png" alt="alt text" /></p>
 
 <p><em>This graph view demonstrates the idea of avoiding orphan cards nicely. Instead of just trying to learn that Giving What We Can was founded in 2009, I learned some other things that happened in 2009, and now there are multiple connections to this fact in my brain. It’s shockingly powerful and easy to do!</em></p>
 

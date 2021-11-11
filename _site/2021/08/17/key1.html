@@ -37,6 +37,17 @@
 <!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
 
 
+  <script type="text/javascript"
+  src="https://unpkg.com/mermaid@8.0.0-rc.8/dist/mermaid.min.js">
+</script>
+<script>
+$(document).ready(function() {
+    mermaid.initialize({
+        theme: 'forest'
+    });
+});
+</script>
+
 
 <!-- end custom head snippets -->
 
@@ -68,11 +79,43 @@
 
 <p><em>Original publish date: 2021-08-17</em></p>
 
-<p><em>(What follows is my quick attempt at a “prose writeup” to distill all my disparate &amp; atomic notes on learning into a quick introduction. Still a work in progress but hopefully a good indication of what I’m aiming for! I’d like to expand upon each key point in subsequent posts, and link to key resources and guides)</em></p>
-
-<p><em>(Note - footnotes/ appendix-style information and references are collected in this page which I’d recommend having open in a separate tab if you’re interested!</em></p>
-
 <p><em>2021-09-11 quick note - highly recommend checking out <a href="https://clearerthinkingpodcast.com/?ep=063">this episode</a> of the Clearer Thinking podcast with Andy Matuschak (who I mention on the resources page) for a fantastic primer on meta-learning / spaced repetition</em></p>
+
+<h2 id="summary">Summary</h2>
+
+<div class="mermaid">
+graph TD;
+	id1(Lack of<br />learning at<br />school)
+	id2(Best ways to learn)
+	
+	bwtl1(Spaced<br />repetition)
+	bwtl2(Active<br />recall)
+	bwtl3(Active<br />encoding)
+
+	id3(Anki)
+	id4(Profundity of<br />memorisation)
+	prof(Harold<br />Bloom)
+
+	id5(Benefits<br />of anki)
+	boa1(Learning<br />doesn't<br />degrade)
+	boa2(Incremental<br />reading)
+	boa3(Growth mindset<br /> and belief in<br />ability to learn)
+
+	id1 --&gt; id2
+	id2 --&gt; bwtl1
+	id2 --&gt; bwtl2
+	id2 --&gt; bwtl3
+	bwtl1 --&gt; id3
+	bwtl2 --&gt; id3
+	bwtl3 --&gt; id3
+	id3 --&gt; id4
+	id4 --&gt; prof
+	id4 --&gt; id5
+	id5 --&gt; boa1
+	id5 --&gt; boa2
+	id5 --&gt; boa3
+
+</div>
 
 <h2 id="learning-at-school--higher-education-as-i-experienced-it">Learning at school &amp; higher education as I experienced it</h2>
 
@@ -93,8 +136,7 @@
 <p>I’ll jump straight to the chase here (I have a lot of notes on the inefficient methods most students use for studying, but I think it’ll be better to jump straight to the valuable and actionable information for the time being).</p>
 
 <h3 id="the-two-key-and-one-bonus-science-backed-ways-to-learn">The two key (and one bonus) science-backed ways to learn</h3>
-
-<p><img src="/alex-cayman-theme/images/key_1_01.jpeg" alt="The forgetting curve" /></p>
+<p><img src="/images/key_1_01.jpeg" alt="The forgetting curve" /></p>
 
 <p>There are two techniques for learning that have been rigorously tested and shown to work wonders. Stick around as the fantastic news is that there’s a free tool that packages these techniques into one package.</p>
 
@@ -112,7 +154,7 @@
 
 <h3 id="anki">Anki</h3>
 
-<p><img src="/alex-cayman-theme/images/key_1_02.png" alt="Anki logo" /></p>
+<p><img src="/images/key_1_02.png" alt="Anki logo" width="100" /></p>
 
 <p>Put simply, Anki is a flashcard tool. I remember making paper flashcards at Univeristy, and they worked pretty well. However, using a digital tool has some huge advantages.</p>
 
@@ -136,7 +178,7 @@
 
 <h3 id="quick-aside-the-great-literature-critic-harold-bloom-on-the-profundity-of-memorisation">Quick aside: the great literature critic Harold Bloom on the profundity of memorisation</h3>
 
-<p><img src="/alex-cayman-theme/images/key_1_03.jpeg" alt="Anki homepage screenshot" /></p>
+<p><img src="/images/key_1_03.jpeg" alt="Anki homepage screenshot" /></p>
 
 <p>(From an interview with Charlie Rose. Whilst Bloom is talking about memorisation of poetry here, I think what he is saying applies perfectly: memorisation changes and empowers you)</p>
 
