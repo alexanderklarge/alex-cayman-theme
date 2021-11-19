@@ -3,7 +3,7 @@ description:
 show_downloads: false
 google_analytics:
 # theme: jekyll-theme-cayman
-paginate: 4
+paginate: 12
 
 plugins:
   - jekyll-paginate
