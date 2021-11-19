@@ -1,5 +1,14 @@
 - title: Home
   url: /
 
-- title: About
-  url: /about/
+#- title: About
+#  url: /about/
+
+- title: Contact & Coaching
+  url: /contact_and_coaching/
+
+- title: Resources
+  url: /resources/
+
+- title: EA Flashcards
+  url: /ea_flashcards/
