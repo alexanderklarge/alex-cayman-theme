@@ -1,10 +1,16 @@
 title: Teaching You How To Learn
-description: 
+description:
 show_downloads: false
 google_analytics:
 # theme: jekyll-theme-cayman
-paginate: 12
+pagination:
+  # Site-wide kill switch, disabled here it doesn't run at all
+  enabled: true
+
+  # Optional, sorts the posts in reverse order (omit to default decending or sort_reverse: true)
+  sort_reverse: false
+  per_page: 2
 
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-seo-tag
