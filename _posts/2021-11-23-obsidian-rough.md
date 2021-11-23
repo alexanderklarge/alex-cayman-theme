@@ -48,6 +48,8 @@ Below is a quick screenshare video I've made to show Obsidian in action.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UXWbjAmS58k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_MPI6NdHeY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Some screenshots
 
 ![alt text](/images/obsidian__ea_graph.png)
