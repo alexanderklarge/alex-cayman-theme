@@ -59,7 +59,7 @@ Below is a quick screenshare video I've made to show Obsidian in action.
 ![alt text](/images/obsidian__plugins.png)
 *The community plugins store is fantastic*
 
-![alt text](/images/obsidian__ea_themes.png)
+![alt text](/images/obsidian__themes.png)
 *Similarly, the community themes store is really great. There's even a Windows 95 one!*
 
 ![alt text](/images/obsidian__discord.png)
