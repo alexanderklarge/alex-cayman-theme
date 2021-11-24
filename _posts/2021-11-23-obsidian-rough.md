@@ -56,10 +56,10 @@ Below is a quick screenshare video I've made to show Obsidian in action.
 *The Obsidian graph view can be colour coded and filtered and is a great tool for rediscovering notes and visualising connections*
 
 ![alt text](/images/obsidian__multiple_panes.png)
-*You can have multiple panes open which is fantastic for research*
+*You can have multiple panes open which is super useful for research*
 
 ![alt text](/images/obsidian__plugins.png)
-*The community plugins store is fantastic*
+*The community plugins store is amazing and lets you extend obsidian in a bunch of great ways*
 
 ![alt text](/images/obsidian__themes.png)
 *Similarly, the community themes store is really great. There's even a Windows 95 one!*
